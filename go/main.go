@@ -22,7 +22,6 @@ func get(url string, i int) {
 }
 
 func main() {
-
 	var wg sync.WaitGroup
 	for true {
 		for i := 0; i < 1000; i++ {
