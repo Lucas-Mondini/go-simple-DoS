@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    run:
+      container_name: DOS
+      build: 
+        context: Dockerfiles/
+      volumes:
+      - ./bin:/dos_bin
+      - ./go:/go
